@@ -1,904 +1,1714 @@
-let A={
-    "data": [
-      {
-        "category_name": "Chicken",
-        "products": [
-          {
-            "id": 1,
-            "city_id": 1,
-            "category": "Chicken",
-            "category_url": "https://www.licious.in/chicken",
-            "category_id": 1,
-            "product_name": "Chicken Breast (Boneless)",
-            "url": "http://licious.in/chicken/chicken-breast-boneless-pr_57234a4f6f77b",
-            "deeplink": "type=products&productId=pr_57234a4f6f77b",
-            "status": 1,
-            "created_at": "2017-08-08T10:39:04.000Z",
-            "updated_at": "2020-05-05T09:49:53.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedchicken/undefined",
-            "msite_category_url": "https://m.licious.in/chicken",
-            "product_id": "pr_57234a4f6f77b",
-            "product_slug": "chicken-breast-boneless-pr_57234a4f6f77b",
-            "cat_slug": "chicken"
-          },
-          {
-            "id": 2,
-            "city_id": 1,
-            "category": "Chicken",
-            "category_url": "https://www.licious.in/chicken",
-            "category_id": 1,
-            "product_name": "Chicken (Skinless) - Curry Cut (Large)",
-            "url": "http://licious.in/chicken/chicken-curry-cut-large-pieces-pr_57234c427648b",
-            "deeplink": "type=products&productId=pr_57234c427648b",
-            "status": 1,
-            "created_at": "2017-08-08T10:39:04.000Z",
-            "updated_at": "2020-05-05T09:49:53.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedchicken/undefined",
-            "msite_category_url": "https://m.licious.in/chicken",
-            "product_id": "pr_57234c427648b",
-            "product_slug": "chicken-curry-cut-large-pieces-pr_57234c427648b",
-            "cat_slug": "chicken"
-          },
-          {
-            "id": 5,
-            "city_id": 1,
-            "category": "Chicken",
-            "category_url": "https://www.licious.in/chicken",
-            "category_id": 1,
-            "product_name": "Chicken Mince/Keema",
-            "url": "http://licious.in/chicken/chicken-mince-keema-pr_57234d5b5ee73",
-            "deeplink": "type=products&productId=pr_57234d5b5ee73",
-            "status": 1,
-            "created_at": "2017-08-08T10:39:05.000Z",
-            "updated_at": "2020-05-05T09:49:53.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedchicken/undefined",
-            "msite_category_url": "https://m.licious.in/chicken",
-            "product_id": "pr_57234d5b5ee73",
-            "product_slug": "chicken-mince-keema-pr_57234d5b5ee73",
-            "cat_slug": "chicken"
-          },
-          {
-            "id": 122,
-            "city_id": 1,
-            "category": "Chicken",
-            "category_url": "https://www.licious.in/chicken",
-            "category_id": 1,
-            "product_name": "Chicken Leg Curry Cut (Large - 4 pieces)",
-            "url": "http://licious.in/chicken/chicken-leg-curry-cut-large---4-pieces-pr_2j9jxbzk1cl",
-            "deeplink": "type=product&productId=pr_2j9jxbzk1cl",
-            "status": 1,
-            "created_at": "2020-05-05T10:02:07.000Z",
-            "updated_at": "2020-05-05T10:02:07.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedchicken/undefined",
-            "msite_category_url": "https://m.licious.in/chicken",
-            "product_id": "pr_2j9jxbzk1cl",
-            "product_slug": "chicken-leg-curry-cut-large---4-pieces-pr_2j9jxbzk1cl",
-            "cat_slug": "chicken"
-          },
-          {
-            "id": 123,
-            "city_id": 1,
-            "category": "Chicken",
-            "category_url": "https://www.licious.in/chicken",
-            "category_id": 1,
-            "product_name": "Chicken Lollipop - 10 Pieces",
-            "url": "http://licious.in/chicken/chicken-lollipop---10-pieces-pr_ejejbf09h51",
-            "deeplink": "type=product&productId=pr_ejejbf09h51",
-            "status": 1,
-            "created_at": "2020-05-05T10:02:07.000Z",
-            "updated_at": "2020-05-05T10:02:07.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedchicken/undefined",
-            "msite_category_url": "https://m.licious.in/chicken",
-            "product_id": "pr_ejejbf09h51",
-            "product_slug": "chicken-lollipop---10-pieces-pr_ejejbf09h51",
-            "cat_slug": "chicken"
-          },
-          {
-            "id": 124,
-            "city_id": 1,
-            "category": "Chicken",
-            "category_url": "https://www.licious.in/chicken",
-            "category_id": 1,
-            "product_name": "Tender Spring Chicken Curry Cut",
-            "url": "http://licious.in/chicken/tender-spring-chicken-curry-cu-pr_hn6k8alrcck",
-            "deeplink": "type=product&productId=pr_hn6k8alrcck",
-            "status": 1,
-            "created_at": "2020-05-05T10:09:06.000Z",
-            "updated_at": "2020-05-05T10:09:06.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedchicken/undefined",
-            "msite_category_url": "https://m.licious.in/chicken",
-            "product_id": "pr_hn6k8alrcck",
-            "product_slug": "tender-spring-chicken-curry-cu-pr_hn6k8alrcck",
-            "cat_slug": "chicken"
-          },
-          {
-            "id": 125,
-            "city_id": 1,
-            "category": "Chicken",
-            "category_url": "",
-            "category_id": 1,
-            "product_name": "Chicken - Whole with Skin",
-            "url": "http://licious.in/chicken/chicken-whole-with-skin-pr_5723564821da3",
-            "deeplink": "type=product&productId=pr_5723564821da3",
-            "status": 1,
-            "created_at": "2020-05-05T10:09:06.000Z",
-            "updated_at": "2020-12-26T11:13:19.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedchicken/undefined",
-            "msite_category_url": "https://m.licious.in/chicken",
-            "product_id": "pr_5723564821da3",
-            "product_slug": "chicken-whole-with-skin-pr_5723564821da3",
-            "cat_slug": "chicken"
-          },
-          {
-            "id": 126,
-            "city_id": 1,
-            "category": "Chicken",
-            "category_url": "https://www.licious.in/chicken",
-            "category_id": 1,
-            "product_name": "Chicken Curry Cut (Small - 13 to 16 Pieces)",
-            "url": "http://licious.in/chicken/chicken-curry-cut-small-pieces-pr_5785b9065d7e1",
-            "deeplink": "type=product&productId=pr_5785b9065d7e1",
-            "status": 1,
-            "created_at": "2020-05-05T10:09:06.000Z",
-            "updated_at": "2020-05-05T10:09:06.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedchicken/undefined",
-            "msite_category_url": "https://m.licious.in/chicken",
-            "product_id": "pr_5785b9065d7e1",
-            "product_slug": "chicken-curry-cut-small-pieces-pr_5785b9065d7e1",
-            "cat_slug": "chicken"
-          }
-        ],
-        "category_url": "https://www.licious.in/chicken",
-        "msite_category_url": "https://m.licious.in/chicken"
+export let data = [
+  {
+    "info": {
+      "id": "582150",
+      "name": "Chinese Wok",
+      "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
+      "locality": "Avinashi Road",
+      "areaName": "Peelamedu",
+      "price":"350",
+      "costForTwo": "₹250 for two",
+      "cuisines": [
+        "Chinese",
+        "Asian",
+        "Tibetan",
+        "Desserts"
+      ],
+      "avgRating": 4.2,
+      "parentId": "61955",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 28,
+        "lastMileTravel": 3.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "3.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
       },
-      {
-        "category_name": "Eggs",
-        "products": [
-          {
-            "id": 11,
-            "city_id": 1,
-            "category": "Eggs",
-            "category_url": "",
-            "category_id": 30,
-            "product_name": "Classic Eggs - Pack Of 6",
-            "url": "http://licious.in/eggs/classic-eggs---pack-of-6-pr_590f2bc508b4a",
-            "deeplink": "type=product&productId=pr_590f2bc508b4a",
-            "status": 1,
-            "created_at": "2017-08-08T14:24:25.000Z",
-            "updated_at": "2021-04-29T19:07:05.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedeggs/undefined",
-            "msite_category_url": "https://m.licious.in/eggs",
-            "product_id": "pr_590f2bc508b4a",
-            "product_slug": "classic-eggs---pack-of-6-pr_590f2bc508b4a",
-            "cat_slug": "eggs"
-          }
-        ],
-        "category_url": "",
-        "msite_category_url": "https://m.licious.in/eggs"
+      "availability": {
+        "nextCloseTime": "2024-06-08 02:00:00",
+        "opened": true
       },
-      {
-        "category_name": "Mutton",
-        "products": [
-          {
-            "id": 22,
-            "city_id": 1,
-            "category": "Mutton",
-            "category_url": "",
-            "category_id": 2,
-            "product_name": "Goat Mince/Keema",
-            "url": "http://licious.in/red-meat/goat-mince-keema-pr_579a530679ede",
-            "deeplink": "type=product&productId=pr_579a530679ede",
-            "status": 1,
-            "created_at": "2017-08-18T11:30:14.000Z",
-            "updated_at": "2020-05-05T09:49:53.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmutton/undefined",
-            "msite_category_url": "https://m.licious.in/red-meat/",
-            "product_id": "pr_579a530679ede",
-            "product_slug": "goat-mince-keema-pr_579a530679ede",
-            "cat_slug": "red-meat"
-          },
-          {
-            "id": 127,
-            "city_id": 1,
-            "category": "Mutton",
-            "category_url": "https://www.licious.in/red-meat",
-            "category_id": 2,
-            "product_name": "Rich Goat Curry Cut (Small - 16 to 20 pieces)",
-            "url": "http://licious.in/red-meat/rich-goat-curry-cut-small-16-t-pr_nbzk1sx8n3k",
-            "deeplink": "type=product&productId=pr_nbzk1sx8n3k",
-            "status": 1,
-            "created_at": "2020-05-05T10:53:24.000Z",
-            "updated_at": "2020-05-05T10:53:24.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmutton/undefined",
-            "msite_category_url": "https://m.licious.in/red-meat",
-            "product_id": "pr_nbzk1sx8n3k",
-            "product_slug": "rich-goat-curry-cut-small-16-t-pr_nbzk1sx8n3k",
-            "cat_slug": "red-meat"
-          },
-          {
-            "id": 128,
-            "city_id": 1,
-            "category": "Mutton",
-            "category_url": "https://www.licious.in/red-meat",
-            "category_id": 2,
-            "product_name": "Lean Goat Curry Cut (Small - 16 to 20 pieces)",
-            "url": "http://licious.in/red-meat/lean-goat-curry-cut-small-16-t-pr_nbzk1sybkyi",
-            "deeplink": "type=product&productId=pr_nbzk1sybkyi",
-            "status": 1,
-            "created_at": "2020-05-05T10:53:24.000Z",
-            "updated_at": "2020-05-05T10:53:24.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmutton/undefined",
-            "msite_category_url": "https://m.licious.in/red-meat",
-            "product_id": "pr_nbzk1sybkyi",
-            "product_slug": "lean-goat-curry-cut-small-16-t-pr_nbzk1sybkyi",
-            "cat_slug": "red-meat"
-          },
-          {
-            "id": 129,
-            "city_id": 1,
-            "category": "Mutton",
-            "category_url": "https://www.licious.in/red-meat",
-            "category_id": 2,
-            "product_name": "Lean Lamb Curry Cut (Small - 16 to 20 pieces)",
-            "url": "http://licious.in/red-meat/lean-lamb-curry-cut-small-16-t-pr_3isk1syezv7",
-            "deeplink": "type=product&productId=pr_3isk1syezv7",
-            "status": 1,
-            "created_at": "2020-05-05T10:53:24.000Z",
-            "updated_at": "2020-05-05T10:53:24.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmutton/undefined",
-            "msite_category_url": "https://www.licious.in/red-meat",
-            "product_id": "pr_3isk1syezv7",
-            "product_slug": "lean-lamb-curry-cut-small-16-t-pr_3isk1syezv7",
-            "cat_slug": "red-meat"
-          },
-          {
-            "id": 130,
-            "city_id": 1,
-            "category": "Mutton",
-            "category_url": "https://www.licious.in/red-meat",
-            "category_id": 2,
-            "product_name": "Rich Lamb Curry Cut (Small - 16 to 20 pieces)",
-            "url": "http://licious.in/red-meat/rich-lamb-curry-cut-small-16-t-pr_ouuk1sxrqbr",
-            "deeplink": "type=product&productId=pr_ouuk1sxrqbr",
-            "status": 1,
-            "created_at": "2020-05-05T10:53:24.000Z",
-            "updated_at": "2020-05-05T10:53:24.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmutton/undefined",
-            "msite_category_url": "https://m.licious.in/red-meat",
-            "product_id": "pr_ouuk1sxrqbr",
-            "product_slug": "rich-lamb-curry-cut-small-16-t-pr_ouuk1sxrqbr",
-            "cat_slug": "red-meat"
-          },
-          {
-            "id": 131,
-            "city_id": 1,
-            "category": "Mutton",
-            "category_url": "https://www.licious.in/red-meat",
-            "category_id": 2,
-            "product_name": "Lamb Ribs and Chops",
-            "url": "http://licious.in/red-meat/lamb-ribs-chops-pr_o5pjg4pmg3n",
-            "deeplink": "type=product&productId=pr_o5pjg4pmg3n",
-            "status": 1,
-            "created_at": "2020-05-05T10:53:24.000Z",
-            "updated_at": "2020-05-05T10:53:24.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmutton/undefined",
-            "msite_category_url": "https://m.licious.in/red-meat",
-            "product_id": "pr_o5pjg4pmg3n",
-            "product_slug": "lamb-ribs-chops-pr_o5pjg4pmg3n",
-            "cat_slug": "red-meat"
-          },
-          {
-            "id": 132,
-            "city_id": 1,
-            "category": "Mutton",
-            "category_url": "https://www.licious.in/red-meat",
-            "category_id": 2,
-            "product_name": "Goat Ribs and Chops",
-            "url": "http://licious.in/red-meat/goat-ribs-chops-pr_4dmjfl18hj2",
-            "deeplink": "type=product&productId=pr_4dmjfl18hj2",
-            "status": 1,
-            "created_at": "2020-05-05T10:53:24.000Z",
-            "updated_at": "2020-05-05T10:53:24.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmutton/undefined",
-            "msite_category_url": "https://m.licious.in/red-meat",
-            "product_id": "pr_4dmjfl18hj2",
-            "product_slug": "goat-ribs-chops-pr_4dmjfl18hj2",
-            "cat_slug": "red-meat"
-          }
-        ],
-        "category_url": "",
-        "msite_category_url": "https://m.licious.in/red-meat/"
+      "badges": {
+        
       },
-      {
-        "category_name": "Fish & Seafood",
-        "products": [
-          {
-            "id": 25,
-            "city_id": 1,
-            "category": "Fish & Seafood",
-            "category_url": "https://www.licious.in/seafood",
-            "category_id": 3,
-            "product_name": "Basa Fillet (Platinum Grade) ",
-            "url": "http://licious.in/seafood/basa-fillet-platinum-grade-pr_5746a6e241199",
-            "deeplink": "type=product&productId=pr_5746a6e241199",
-            "status": 1,
-            "created_at": "2017-08-18T11:36:30.000Z",
-            "updated_at": "2020-05-05T09:49:53.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedfish & seafood/undefined",
-            "msite_category_url": "https://m.licious.in/seafood",
-            "product_id": "pr_5746a6e241199",
-            "product_slug": "basa-fillet-platinum-grade-pr_5746a6e241199",
-            "cat_slug": "seafood"
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
           },
-          {
-            "id": 26,
-            "city_id": 1,
-            "category": "Fish & Seafood",
-            "category_url": "https://www.licious.in/seafood",
-            "category_id": 3,
-            "product_name": "Premium Grade Mackerel (Cleaned)",
-            "url": "http://licious.in/seafood/mackerel-gutted-pr_57235831e3960",
-            "deeplink": "type=product&productId=pr_57235831e3960",
-            "status": 1,
-            "created_at": "2017-08-18T11:37:32.000Z",
-            "updated_at": "2020-05-05T09:49:53.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedfish & seafood/undefined",
-            "msite_category_url": "https://m.licious.in/seafood",
-            "product_id": "pr_57235831e3960",
-            "product_slug": "mackerel-gutted-pr_57235831e3960",
-            "cat_slug": "seafood"
+          "textBased": {
+            
           },
-          {
-            "id": 133,
-            "city_id": 1,
-            "category": "Fish & Seafood",
-            "category_url": "https://www.licious.in/seafood",
-            "category_id": 3,
-            "product_name": "Freshwater Rohu Large - Bengali Cut (w/o Head)",
-            "url": "http://licious.in/seafood/freshwater-rohu-large---bengali-cut-no-head-pr_599441c9064f2",
-            "deeplink": "type=product&productId=pr_599441c9064f2",
-            "status": 1,
-            "created_at": "2020-05-05T11:02:46.000Z",
-            "updated_at": "2020-05-05T11:02:46.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedfish & seafood/undefined",
-            "msite_category_url": "https://m.licious.in/seafood",
-            "product_id": "pr_599441c9064f2",
-            "product_slug": "freshwater-rohu-large---bengali-cut-no-head-pr_599441c9064f2",
-            "cat_slug": "seafood"
-          },
-          {
-            "id": 134,
-            "city_id": 1,
-            "category": "Fish & Seafood",
-            "category_url": "https://www.licious.in/seafood",
-            "category_id": 3,
-            "product_name": "Freshwater Rohu - Bengali Cut (Without Head)",
-            "url": "http://licious.in/seafood/freshwater-rohu-bengali-cut-without-head-pr_6j4jhlmxsk1",
-            "deeplink": "type=product&productId=pr_6j4jhlmxsk1",
-            "status": 1,
-            "created_at": "2020-05-05T11:02:46.000Z",
-            "updated_at": "2020-05-05T11:02:46.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedfish & seafood/undefined",
-            "msite_category_url": "https://m.licious.in/seafood",
-            "product_id": "pr_6j4jhlmxsk1",
-            "product_slug": "freshwater-rohu-bengali-cut-without-head-pr_6j4jhlmxsk1",
-            "cat_slug": "seafood"
-          },
-          {
-            "id": 135,
-            "city_id": 1,
-            "category": "Fish & Seafood",
-            "category_url": "https://www.licious.in/seafood",
-            "category_id": 3,
-            "product_name": "Medium Prawns -  Without Tail",
-            "url": "http://licious.in/seafood/freshwater-prawns-60c---cleaned-deveined,-no-tail-pr_6zvk7zqjeap",
-            "deeplink": "type=product&productId=pr_6zvk7zqjeap",
-            "status": 1,
-            "created_at": "2020-05-05T11:02:46.000Z",
-            "updated_at": "2020-05-05T11:02:46.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedfish & seafood/undefined",
-            "msite_category_url": "https://m.licious.in/seafood",
-            "product_id": "pr_6zvk7zqjeap",
-            "product_slug": "freshwater-prawns-60c---cleaned-deveined,-no-tail-pr_6zvk7zqjeap",
-            "cat_slug": "seafood"
-          },
-          {
-            "id": 136,
-            "city_id": 1,
-            "category": "Fish & Seafood",
-            "category_url": "https://www.licious.in/seafood",
-            "category_id": 3,
-            "product_name": "Seer (Surmai) Steaks",
-            "url": "http://licious.in/seafood/seer-large---steaks-pr_5723580b90fd9",
-            "deeplink": "type=product&productId=pr_5723580b90fd9",
-            "status": 1,
-            "created_at": "2020-05-05T11:02:46.000Z",
-            "updated_at": "2020-05-05T11:02:46.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedfish & seafood/undefined",
-            "msite_category_url": "https://m.licious.in/seafood",
-            "product_id": "pr_5723580b90fd9",
-            "product_slug": "seer-large---steaks-pr_5723580b90fd9",
-            "cat_slug": "seafood"
-          },
-          {
-            "id": 137,
-            "city_id": 1,
-            "category": "Fish & Seafood",
-            "category_url": "https://www.licious.in/seafood",
-            "category_id": 3,
-            "product_name": "Freshwater Rohu Small - Bengali Cut (without Head)",
-            "url": "http://licious.in/seafood/freshwater-rohu-small---bengali-cut-no-head-pr_k3yk8iu1vgp",
-            "deeplink": "type=product&productId=pr_k3yk8iu1vgp",
-            "status": 1,
-            "created_at": "2020-05-05T11:02:46.000Z",
-            "updated_at": "2020-05-05T11:02:46.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedfish & seafood/undefined",
-            "msite_category_url": "https://m.licious.in/seafood",
-            "product_id": "pr_k3yk8iu1vgp",
-            "product_slug": "freshwater-rohu-small---bengali-cut-no-head-pr_k3yk8iu1vgp",
-            "cat_slug": "seafood"
+          "textExtendedBadges": {
+            
           }
-        ],
-        "category_url": "https://www.licious.in/seafood",
-        "msite_category_url": "https://m.licious.in/seafood"
+        }
       },
-      {
-        "category_name": "Ready to Cook",
-        "products": [
-          {
-            "id": 31,
-            "city_id": 1,
-            "category": "Ready to Cook",
-            "category_url": "",
-            "category_id": 4,
-            "product_name": "Caribbean Jerk Chicken (Boneless)",
-            "url": "http://licious.in/marinades/caribbean-jerk-chicken-pr_572358cee5c09",
-            "deeplink": "type=product&productId=pr_572358cee5c09",
-            "status": 1,
-            "created_at": "2017-09-07T12:35:36.000Z",
-            "updated_at": "2020-05-05T09:49:53.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedready to cook/undefined",
-            "msite_category_url": "https://m.licious.in/marinades",
-            "product_id": "pr_572358cee5c09",
-            "product_slug": "caribbean-jerk-chicken-pr_572358cee5c09",
-            "cat_slug": "marinades"
-          },
-          {
-            "id": 138,
-            "city_id": 1,
-            "category": "Ready to Cook",
-            "category_url": "https://www.licious.in/marinades",
-            "category_id": 4,
-            "product_name": "Habanero Chicken Wings (Hot) - 10 Pieces",
-            "url": "http://licious.in/marinades/habanero-chicken-wings-hot-10-pr_4rqjeo4sujr",
-            "deeplink": "type=product&productId=pr_4rqjeo4sujr",
-            "status": 1,
-            "created_at": "2020-05-05T11:09:31.000Z",
-            "updated_at": "2020-05-05T11:09:31.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedready to cook/undefined",
-            "msite_category_url": "https://m.licious.in/marinades",
-            "product_id": "pr_4rqjeo4sujr",
-            "product_slug": "habanero-chicken-wings-hot-10-pr_4rqjeo4sujr",
-            "cat_slug": "marinades"
-          },
-          {
-            "id": 139,
-            "city_id": 1,
-            "category": "Ready to Cook",
-            "category_url": "https://www.licious.in/marinades",
-            "category_id": 4,
-            "product_name": "Creamy Afghani Chicken",
-            "url": "http://licious.in/marinades/creamy-afghani-chicken-pr_8izjkuohf8n",
-            "deeplink": "type=product&productId=pr_8izjkuohf8n",
-            "status": 1,
-            "created_at": "2020-05-05T11:09:31.000Z",
-            "updated_at": "2020-05-05T11:09:31.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedready to cook/undefined",
-            "msite_category_url": "https://m.licious.in/marinades",
-            "product_id": "pr_8izjkuohf8n",
-            "product_slug": "creamy-afghani-chicken-pr_8izjkuohf8n",
-            "cat_slug": "marinades"
-          },
-          {
-            "id": 140,
-            "city_id": 1,
-            "category": "Ready to Cook",
-            "category_url": "https://www.licious.in/marinades",
-            "category_id": 4,
-            "product_name": "Peri Peri Chicken (Spicy)",
-            "url": "http://licious.in/marinades/peri-peri-chicken-spicy-pr_572359462392e",
-            "deeplink": "type=product&productId=pr_572359462392e",
-            "status": 1,
-            "created_at": "2020-05-05T11:09:31.000Z",
-            "updated_at": "2020-05-05T11:09:31.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedready to cook/undefined",
-            "msite_category_url": "https://m.licious.in/marinades",
-            "product_id": "pr_572359462392e",
-            "product_slug": "peri-peri-chicken-spicy-pr_572359462392e",
-            "cat_slug": "marinades"
-          },
-          {
-            "id": 141,
-            "city_id": 1,
-            "category": "Ready to Cook",
-            "category_url": "https://www.licious.in/marinades",
-            "category_id": 4,
-            "product_name": "Chicken Cutlet (Bengali Style)",
-            "url": "http://licious.in/marinades/chicken-cutlet---bengali-style-pr_ntcjmw19kw5",
-            "deeplink": "type=product&productId=pr_ntcjmw19kw5",
-            "status": 1,
-            "created_at": "2020-05-05T11:09:31.000Z",
-            "updated_at": "2020-05-05T11:09:31.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedready to cook/undefined",
-            "msite_category_url": "https://m.licious.in/marinades",
-            "product_id": "pr_ntcjmw19kw5",
-            "product_slug": "chicken-cutlet---bengali-style-pr_ntcjmw19kw5",
-            "cat_slug": "marinades"
-          }
-        ],
-        "category_url": "",
-        "msite_category_url": "https://m.licious.in/marinades"
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹149"
       },
-      {
-        "category_name": "Exotic Meats",
-        "products": [
-          {
-            "id": 35,
-            "city_id": 1,
-            "category": "Exotic Meats",
-            "category_url": "https://www.licious.in/exotic",
-            "category_id": 7,
-            "product_name": "Atlantic Salmon Steaks",
-            "url": "http://licious.in/exotic/atlantic-salmon-steaks-pr_579203c67b2ef",
-            "deeplink": "type=product&productId=pr_579203c67b2ef",
-            "status": 1,
-            "created_at": "2017-09-07T12:40:48.000Z",
-            "updated_at": "2020-05-05T09:49:53.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedexotic meats/undefined",
-            "msite_category_url": "https://m.licious.in/exotic",
-            "product_id": "pr_579203c67b2ef",
-            "product_slug": "atlantic-salmon-steaks-pr_579203c67b2ef",
-            "cat_slug": "exotic"
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
           },
-          {
-            "id": 36,
-            "city_id": 1,
-            "category": "Exotic Meats",
-            "category_url": "https://www.licious.in/exotic",
-            "category_id": 7,
-            "product_name": "Blue Crab",
-            "url": "http://licious.in/exotic/blue-crab-pr_57235852e4987",
-            "deeplink": "type=product&productId=pr_57235852e4987",
-            "status": 1,
-            "created_at": "2017-09-07T12:41:53.000Z",
-            "updated_at": "2020-05-05T09:49:53.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedexotic meats/undefined",
-            "msite_category_url": "https://m.licious.in/exotic",
-            "product_id": "pr_57235852e4987",
-            "product_slug": "blue-crab-pr_57235852e4987",
-            "cat_slug": "exotic"
-          },
-          {
-            "id": 37,
-            "city_id": 1,
-            "category": "Exotic Meats",
-            "category_url": "https://www.licious.in/exotic",
-            "category_id": 7,
-            "product_name": "Sea Bass/ Bhetki Fillet ",
-            "url": "http://licious.in/exotic/sea-bass-fillet  -pr_572db2eb17e6e",
-            "deeplink": "type=product&productId=pr_572db2eb17e6e",
-            "status": 1,
-            "created_at": "2017-09-07T12:42:51.000Z",
-            "updated_at": "2020-05-05T09:49:53.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedexotic meats/undefined",
-            "msite_category_url": "https://m.licious.in/exotic",
-            "product_id": "pr_572db2eb17e6e",
-            "product_slug": "sea-bass-fillet  -pr_572db2eb17e6e",
-            "cat_slug": "exotic"
+          "video": {
+            
           }
-        ],
-        "category_url": "https://www.licious.in/exotic",
-        "msite_category_url": "https://m.licious.in/exotic"
+        }
       },
-      {
-        "category_name": "Spreads",
-        "products": [
-          {
-            "id": 142,
-            "city_id": 1,
-            "category": "Spreads",
-            "category_url": "https://www.licious.in/spreads",
-            "category_id": 20,
-            "product_name": "Chunky Butter Chicken Spread (Single Serve)",
-            "url": "http://licious.in/spreads/chunky-butter-chicken-spread-s-pr_4cyjya5vxs7",
-            "deeplink": "type=product&productId=pr_4cyjya5vxs7",
-            "status": 1,
-            "created_at": "2020-05-05T11:13:37.000Z",
-            "updated_at": "2020-05-05T11:13:37.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedspreads/undefined",
-            "msite_category_url": "https://m.licious.in/spreads",
-            "product_id": "pr_4cyjya5vxs7",
-            "product_slug": "chunky-butter-chicken-spread-s-pr_4cyjya5vxs7",
-            "cat_slug": "spreads"
-          },
-          {
-            "id": 143,
-            "city_id": 1,
-            "category": "Spreads",
-            "category_url": "https://www.licious.in/spreads",
-            "category_id": 20,
-            "product_name": "Chunky Continental Chicken Spread",
-            "url": "http://licious.in/spreads/chunky-continental-chicken-spr-pr_4q4jya5rq6v",
-            "deeplink": "type=product&productId=pr_4q4jya5rq6v",
-            "status": 1,
-            "created_at": "2020-05-05T11:13:37.000Z",
-            "updated_at": "2020-05-05T11:13:37.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedspreads/undefined",
-            "msite_category_url": "https://m.licious.in/spreads",
-            "product_id": "pr_4q4jya5rq6v",
-            "product_slug": "chunky-continental-chicken-spr-pr_4q4jya5rq6v",
-            "cat_slug": "spreads"
-          },
-          {
-            "id": 144,
-            "city_id": 1,
-            "category": "Spreads",
-            "category_url": "https://www.licious.in/spreads",
-            "category_id": 20,
-            "product_name": "Chunky Shawarma Chicken Spread (Single Serve)",
-            "url": "http://licious.in/spreads/chunky-shawarma-chicken-spread-pr_4q4jya5vg2a",
-            "deeplink": "type=product&productId=pr_4q4jya5vg2a",
-            "status": 1,
-            "created_at": "2020-05-05T11:13:37.000Z",
-            "updated_at": "2020-05-05T11:13:37.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedspreads/undefined",
-            "msite_category_url": "https://m.licious.in/spreads",
-            "product_id": "pr_4q4jya5vg2a",
-            "product_slug": "chunky-shawarma-chicken-spread-pr_4q4jya5vg2a",
-            "cat_slug": "spreads"
-          }
-        ],
-        "category_url": "https://www.licious.in/spreads",
-        "msite_category_url": "https://m.licious.in/spreads"
+      "reviewsSummary": {
+        
       },
-      {
-        "category_name": "Kebabs",
-        "products": [
-          {
-            "id": 145,
-            "city_id": 1,
-            "category": "Kebabs",
-            "category_url": "https://www.licious.in/kebabs",
-            "category_id": 39,
-            "product_name": "Afghani Murgh Seekh Kebab",
-            "url": "http://licious.in/kebabs/afghani-murgh-seekh-kebab-pr_ikuk3ilucko",
-            "deeplink": "type=product&productId=pr_ikuk3ilucko",
-            "status": 1,
-            "created_at": "2020-05-05T11:21:03.000Z",
-            "updated_at": "2020-05-05T11:21:03.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedkebabs/undefined",
-            "msite_category_url": "https://m.licious.in/kebabs",
-            "product_id": "pr_ikuk3ilucko",
-            "product_slug": "afghani-murgh-seekh-kebab-pr_ikuk3ilucko",
-            "cat_slug": "kebabs"
-          },
-          {
-            "id": 146,
-            "city_id": 1,
-            "category": "Kebabs",
-            "category_url": "https://www.licious.in/kebabs",
-            "category_id": 39,
-            "product_name": "Purani Dilli ki Mutton Seekh Kebab",
-            "url": "http://licious.in/kebabs/purani-dilli-ki-mutton-seekh-kebab-pr_inuk3ilznwg",
-            "deeplink": "type=product&productId=pr_inuk3ilznwg",
-            "status": 1,
-            "created_at": "2020-05-05T11:21:03.000Z",
-            "updated_at": "2020-05-05T11:21:03.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedkebabs/undefined",
-            "msite_category_url": "https://m.licious.in/kebabs",
-            "product_id": "pr_inuk3ilznwg",
-            "product_slug": "purani-dilli-ki-mutton-seekh-kebab-pr_inuk3ilznwg",
-            "cat_slug": "kebabs"
-          }
-        ],
-        "category_url": "https://www.licious.in/kebabs",
-        "msite_category_url": "https://m.licious.in/kebabs"
-      },
-      {
-        "category_name": "Meat Masala",
-        "products": [
-          {
-            "id": 242,
-            "city_id": 1,
-            "category": "Meat Masala",
-            "category_url": "https://www.licious.in/masalas",
-            "category_id": 297,
-            "product_name": "Classic Meat Masala",
-            "url": "http://licious.in/masalas/classic-meat-masala-pr_o2hlaqh6jv9",
-            "deeplink": "type=product&productId=pr_o2hlaqh6jv9",
-            "status": 1,
-            "created_at": "2022-11-30T17:15:38.000Z",
-            "updated_at": "2022-11-30T17:15:38.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmeat masala/undefined",
-            "msite_category_url": "https://www.m.licious.in/masalas",
-            "product_id": "pr_o2hlaqh6jv9",
-            "product_slug": "classic-meat-masala-pr_o2hlaqh6jv9",
-            "cat_slug": "masalas"
-          },
-          {
-            "id": 244,
-            "city_id": 1,
-            "category": "Meat Masala",
-            "category_url": "https://www.licious.in/masalas",
-            "category_id": 297,
-            "product_name": "Dakshin Pepper Fry Masala",
-            "url": "http://licious.in/masalas/dakshin-pepper-fry-masala-pr_ncplaqh86z8",
-            "deeplink": "type=product&productId=pr_ncplaqh86z8",
-            "status": 1,
-            "created_at": "2022-12-01T06:37:20.000Z",
-            "updated_at": "2022-12-01T06:37:20.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmeat masala/undefined",
-            "msite_category_url": "https://www.m.licious.in/masalas",
-            "product_id": "pr_ncplaqh86z8",
-            "product_slug": "dakshin-pepper-fry-masala-pr_ncplaqh86z8",
-            "cat_slug": "masalas"
-          },
-          {
-            "id": 245,
-            "city_id": 1,
-            "category": "Meat Masala",
-            "category_url": "https://www.licious.in/masalas",
-            "category_id": 297,
-            "product_name": "Chatpata Fish Fry Masala",
-            "url": "http://licious.in/masalas/chatpata-fish-fry-masala-pr_kjdlaqh7g54",
-            "deeplink": "type=product&productId=pr_kjdlaqh7g54",
-            "status": 1,
-            "created_at": "2022-12-01T06:56:38.000Z",
-            "updated_at": "2022-12-01T06:56:38.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmeat masala/undefined",
-            "msite_category_url": "https://www.m.licious.in/masalas",
-            "product_id": "pr_kjdlaqh7g54",
-            "product_slug": "chatpata-fish-fry-masala-pr_kjdlaqh7g54",
-            "cat_slug": "masalas"
-          },
-          {
-            "id": 246,
-            "city_id": 1,
-            "category": "Meat Masala",
-            "category_url": "https://www.licious.in/masalas",
-            "category_id": 297,
-            "product_name": "Classic Chicken Masala",
-            "url": "http://licious.in/masalas/classic-chicken-masala-pr_ncplaqh5mkw",
-            "deeplink": "type=product&productId=pr_ncplaqh5mkw",
-            "status": 1,
-            "created_at": "2022-12-01T07:14:52.000Z",
-            "updated_at": "2022-12-01T07:14:52.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmeat masala/undefined",
-            "msite_category_url": "https://www.m.licious.in/masalas",
-            "product_id": "pr_ncplaqh5mkw",
-            "product_slug": "classic-chicken-masala-pr_ncplaqh5mkw",
-            "cat_slug": "masalas"
-          },
-          {
-            "id": 247,
-            "city_id": 1,
-            "category": "Meat Masala",
-            "category_url": "https://www.licious.in/masalas",
-            "category_id": 297,
-            "product_name": "Asli Garam Masala",
-            "url": "http://licious.in/masalas/asli-garam-masala-pr_o2hlaqh0y11",
-            "deeplink": "type=product&productId=pr_o2hlaqh0y11",
-            "status": 1,
-            "created_at": "2022-12-08T10:09:05.000Z",
-            "updated_at": "2022-12-08T10:09:05.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmeat masala/undefined",
-            "msite_category_url": "https://www.m.licious.in/masalas",
-            "product_id": "pr_o2hlaqh0y11",
-            "product_slug": "asli-garam-masala-pr_o2hlaqh0y11",
-            "cat_slug": "masalas"
-          },
-          {
-            "id": 248,
-            "city_id": 1,
-            "category": "Meat Masala",
-            "category_url": "https://www.licious.in/masalas",
-            "category_id": 297,
-            "product_name": "Original Tandoori Chicken Masala",
-            "url": "http://licious.in/masalas/original-tandoori-chicken-masa-pr_ncplaqh1yxx",
-            "deeplink": "type=product&productId=pr_ncplaqh1yxx",
-            "status": 1,
-            "created_at": "2022-12-08T10:10:21.000Z",
-            "updated_at": "2022-12-08T10:10:21.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmeat masala/undefined",
-            "msite_category_url": "https://www.m.licious.in/masalas",
-            "product_id": "pr_ncplaqh1yxx",
-            "product_slug": "original-tandoori-chicken-masa-pr_ncplaqh1yxx",
-            "cat_slug": "masalas"
-          },
-          {
-            "id": 249,
-            "city_id": 1,
-            "category": "Meat Masala",
-            "category_url": "https://www.licious.in/masalas",
-            "category_id": 297,
-            "product_name": "Shandaar Butter Chicken Masala",
-            "url": "http://licious.in/masalas/shandaar-butter-chicken-masala-pr_o2hlaqh33oq",
-            "deeplink": "type=product&productId=pr_o2hlaqh33oq",
-            "status": 1,
-            "created_at": "2022-12-08T10:11:39.000Z",
-            "updated_at": "2022-12-08T10:11:39.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmeat masala/undefined",
-            "msite_category_url": "https://www.m.licious.in/masalas",
-            "product_id": "pr_o2hlaqh33oq",
-            "product_slug": "shandaar-butter-chicken-masala-pr_o2hlaqh33oq",
-            "cat_slug": "masalas"
-          },
-          {
-            "id": 250,
-            "city_id": 1,
-            "category": "Meat Masala",
-            "category_url": "https://www.licious.in/masalas",
-            "category_id": 297,
-            "product_name": "Khansama Biryani Masala",
-            "url": "http://licious.in/masalas/khansama-biryani-masala-pr_ggylaqh46m8",
-            "deeplink": "type=product&productId=pr_ggylaqh46m8",
-            "status": 1,
-            "created_at": "2022-12-08T10:16:29.000Z",
-            "updated_at": "2022-12-08T10:16:29.000Z",
-            "platform": "ALL",
-            "msite_product_url": "undefinedmeat masala/undefined",
-            "msite_category_url": "https://www.m.licious.in/masalas",
-            "product_id": "pr_ggylaqh46m8",
-            "product_slug": "khansama-biryani-masala-pr_ggylaqh46m8",
-            "cat_slug": "masalas"
-          }
-        ],
-        "category_url": "https://www.licious.in/masalas",
-        "msite_category_url": "https://www.m.licious.in/masalas"
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
       }
-    ],
-    "status": "success"
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/chinese-wok-avinashi-road-peelamedu-coimbatore-582150",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "492041",
+      "name": "Pizza Hut",
+      "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+      "locality": "Avinash Road",
+      "areaName": "Peelamedu",
+      "costForTwo": "₹350 for two",
+      "cuisines": [
+        "Pizzas"
+      ],
+      "avgRating": 4.4,
+      "parentId": "721",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 25,
+        "lastMileTravel": 1.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "1.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-08 01:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "Rxawards/_CATEGORY-Pizza.png",
+            "description": "Delivery!"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Delivery!",
+                  "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹125 OFF",
+        "subHeader": "ABOVE ₹249",
+        "discountTag": "FLAT DEAL"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/pizza-hut-avinash-road-peelamedu-coimbatore-492041",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "236585",
+      "name": "UBQ by Barbeque Nation",
+      "cloudinaryImageId": "emokngtugausm3e8wcam",
+      "locality": "Fun Republic Mall",
+      "areaName": "Peelamedu",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "North Indian",
+        "Barbecue",
+        "Biryani",
+        "Kebabs",
+        "Mughlai",
+        "Desserts"
+      ],
+      "avgRating": 4.1,
+      "parentId": "10804",
+      "avgRatingString": "4.1",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 39,
+        "lastMileTravel": 2.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "35-40 mins",
+        "lastMileTravelString": "2.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-07 23:30:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-fun-republic-mall-peelamedu-coimbatore-236585",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "307773",
+      "name": "Barbeque Nation",
+      "cloudinaryImageId": "bpn8bctxakzphazs1tj1",
+      "locality": "Avinashi Road",
+      "areaName": "Avinashi Road",
+      "costForTwo": "₹600 for two",
+      "cuisines": [
+        "North Indian",
+        "Barbecue",
+        "Biryani",
+        "Kebabs",
+        "Mughlai",
+        "Desserts"
+      ],
+      "avgRating": 4,
+      "parentId": "2438",
+      "avgRatingString": "4.0",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 39,
+        "lastMileTravel": 2.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "35-40 mins",
+        "lastMileTravelString": "2.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-07 23:30:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/barbeque-nation-avinashi-road-coimbatore-307773",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "82488",
+      "name": "The Belgian Waffle Co.",
+      "cloudinaryImageId": "5116a385bac0548e06c33c08350fbf11",
+      "locality": "Avinashi Road",
+      "areaName": "Peelamedu",
+      "costForTwo": "₹200 for two",
+      "cuisines": [
+        "Waffle",
+        "Desserts",
+        "Ice Cream",
+        "Beverages"
+      ],
+      "avgRating": 4.6,
+      "parentId": "2233",
+      "avgRatingString": "4.6",
+      "totalRatingsString": "5K+",
+      "sla": {
+        "deliveryTime": 31,
+        "lastMileTravel": 2.4,
+        "serviceability": "SERVICEABLE",
+        "slaString": "30-35 mins",
+        "lastMileTravelString": "2.4 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-07 23:59:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "UPTO ₹50"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/the-belgian-waffle-co-avinashi-road-peelamedu-coimbatore-82488",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "575570",
+      "name": "Nagerkovil Arya Bhavan",
+      "cloudinaryImageId": "yj6g7wugbi5qbvjtoqmr",
+      "locality": "Peelamedu",
+      "areaName": "Peelamedu",
+      "costForTwo": "₹200 for two",
+      "cuisines": [
+        "South Indian",
+        "Chinese"
+      ],
+      "avgRating": 4.6,
+      "parentId": "353249",
+      "avgRatingString": "4.6",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 17,
+        "lastMileTravel": 1.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "15-20 mins",
+        "lastMileTravelString": "1.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-07 22:45:00",
+        "opened": true
+      },
+      "badges": {
+        "textExtendedBadges": [
+          {
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available",
+            "fontColor": "#7E808C"
+          }
+        ]
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {
+        
+      },
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "",
+                  "fontColor": "#7E808C",
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/nagerkovil-arya-bhavan-peelamedu-coimbatore-575570",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "385409",
+      "name": "Dindigul Venu Biriyani",
+      "cloudinaryImageId": "zjlp8z2tdg6dgify5fhd",
+      "locality": "Avinash Road",
+      "areaName": "Lakshmi Mills",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "Biryani",
+        "Chinese"
+      ],
+      "avgRating": 4.2,
+      "parentId": "244844",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 19,
+        "lastMileTravel": 1.6,
+        "serviceability": "SERVICEABLE",
+        "slaString": "15-20 mins",
+        "lastMileTravelString": "1.6 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-07 17:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "10% OFF",
+        "subHeader": "UPTO ₹40"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/dindigul-venu-biriyani-avinash-road-lakshmi-mills-coimbatore-385409",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "67645",
+      "name": "Night Lion by Madhampatty Pakashala",
+      "cloudinaryImageId": "qgck9fzi17ljdvwboljb",
+      "locality": "Gauthama Puri Nagar",
+      "areaName": "Peelamedu",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "South Indian",
+        "Chinese",
+        "Haleem"
+      ],
+      "avgRating": 4.3,
+      "parentId": "377170",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 29,
+        "lastMileTravel": 4.1,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "4.1 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-08 05:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "40% OFF",
+        "subHeader": "UPTO ₹80"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/night-lion-by-madhampatty-pakashala-gauthama-puri-nagar-peelamedu-coimbatore-67645",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "579276",
+      "name": "Big Bowl",
+      "cloudinaryImageId": "c99751d54e4e1847186c62b3309c1327",
+      "locality": "Avinashi Road",
+      "areaName": "Namburar",
+      "costForTwo": "₹250 for two",
+      "cuisines": [
+        "North Indian",
+        "Chinese",
+        "Tibetan",
+        "Desserts"
+      ],
+      "avgRating": 4.2,
+      "parentId": "434792",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "500+",
+      "sla": {
+        "deliveryTime": 25,
+        "lastMileTravel": 3.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "3.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-08 02:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹179"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/big-bowl-avinashi-road-namburar-coimbatore-579276",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "440139",
+      "name": "Great Indian Khichdi by EatFit",
+      "cloudinaryImageId": "6e44fd7f1e5cd9967edfe47c10247671",
+      "locality": "Thanneerpandal main Road",
+      "areaName": "Peelamedu",
+      "costForTwo": "₹200 for two",
+      "cuisines": [
+        "Home Food",
+        "Indian",
+        "North Indian",
+        "Healthy Food",
+        "Snacks",
+        "Desserts",
+        "Rajasthani",
+        "South Indian",
+        "Maharashtrian",
+        "Sweets"
+      ],
+      "avgRating": 4.3,
+      "parentId": "319582",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "500+",
+      "sla": {
+        "deliveryTime": 26,
+        "lastMileTravel": 4.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "4.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-08 00:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹120"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/great-indian-khichdi-by-eatfit-thanneerpandal-main-road-peelamedu-coimbatore-440139",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "53332",
+      "name": "Shree Aksshayam",
+      "cloudinaryImageId": "bc2eb057b8474efce6932bb4335d950e",
+      "locality": "Peelamedu",
+      "areaName": "Peelamedu",
+      "costForTwo": "₹200 for two",
+      "cuisines": [
+        "South Indian",
+        "Chinese"
+      ],
+      "avgRating": 4.5,
+      "parentId": "7115",
+      "avgRatingString": "4.5",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 18,
+        "lastMileTravel": 0.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "15-20 mins",
+        "lastMileTravelString": "0.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-07 22:30:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {
+        
+      },
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/shree-aksshayam-peelamedu-coimbatore-53332",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "50793",
+      "name": "KFC",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/1b92e544-fce7-45ac-941a-50092e3037a5_50793.JPG",
+      "locality": "Peelamedu",
+      "areaName": "Peelamedu",
+      "costForTwo": "₹500 for two",
+      "cuisines": [
+        "Burgers",
+        "Fast Food",
+        "Rolls & Wraps"
+      ],
+      "avgRating": 4.2,
+      "parentId": "547",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 21,
+        "lastMileTravel": 1.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "1.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-08 01:30:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "Rxawards/_CATEGORY-Burger.png",
+            "description": "Delivery!"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Delivery!",
+                  "imageId": "Rxawards/_CATEGORY-Burger.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "UPTO ₹50"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/kfc-peelamedu-coimbatore-50793",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "50958",
+      "name": "Domino's Pizza",
+      "cloudinaryImageId": "d0450ce1a6ba19ea60cd724471ed54a8",
+      "locality": "Peelamedu",
+      "areaName": "Peelamedu",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+        "Pizzas",
+        "Italian",
+        "Pastas",
+        "Desserts"
+      ],
+      "avgRating": 4.3,
+      "parentId": "2456",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 25,
+        "lastMileTravel": 2.2,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "2.2 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-08 02:59:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "Rxawards/_CATEGORY-Pizza.png",
+            "description": "Delivery!"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Delivery!",
+                  "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹150 OFF",
+        "subHeader": "ABOVE ₹299",
+        "discountTag": "FLAT DEAL"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/dominos-pizza-peelamedu-coimbatore-50958",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "56506",
+      "name": "McDonald's",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/c2d802cb-ca03-4372-9f83-e3f34b318a71_56506.jpg",
+      "locality": "Fun Republic Mall",
+      "areaName": "Avinashi Road",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+        "Burgers",
+        "Beverages",
+        "Cafe",
+        "Desserts"
+      ],
+      "avgRating": 4.4,
+      "parentId": "630",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 23,
+        "lastMileTravel": 2.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "2.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-07 23:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "Rxawards/_CATEGORY-Burger.png",
+            "description": "Delivery!"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Delivery!",
+                  "imageId": "Rxawards/_CATEGORY-Burger.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹199"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/mcdonalds-fun-republic-mall-avinashi-road-coimbatore-56506",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "437497",
+      "name": "Covai Anganan Biriyani House",
+      "cloudinaryImageId": "c8xcmqq3ecugauftcasf",
+      "locality": "Avinashi Road",
+      "areaName": "Lakshmi Mills",
+      "costForTwo": "₹650 for two",
+      "cuisines": [
+        "Biryani",
+        "South Indian",
+        "Chinese",
+        "Barbecue",
+        "Tandoor",
+        "Desserts"
+      ],
+      "avgRating": 4.3,
+      "parentId": "230662",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 21,
+        "lastMileTravel": 2.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "2.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-07 22:30:00",
+        "opened": true
+      },
+      "badges": {
+        "textExtendedBadges": [
+          {
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available",
+            "fontColor": "#7E808C"
+          }
+        ]
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {
+        
+      },
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "",
+                  "fontColor": "#7E808C",
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/covai-anganan-biriyani-house-avinashi-road-lakshmi-mills-coimbatore-437497",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "60005",
+      "name": "Thirupathi Mess",
+      "cloudinaryImageId": "bzwckbvw6k8ncyw3lkfi",
+      "locality": "Ramanathapuram",
+      "areaName": "Ramanathapuram",
+      "costForTwo": "₹100 for two",
+      "cuisines": [
+        "South Indian",
+        "Indian"
+      ],
+      "avgRating": 4.5,
+      "parentId": "215840",
+      "avgRatingString": "4.5",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 21,
+        "lastMileTravel": 3.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "3.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-07 16:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "10% OFF",
+        "subHeader": "UPTO ₹40"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/thirupathi-mess-ramanathapuram-coimbatore-60005",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "68851",
+      "name": "Cock Ra Co",
+      "cloudinaryImageId": "u6wpylgszisslzsmlqvo",
+      "locality": "Ramanathapuram",
+      "areaName": "Ramanathapuram",
+      "costForTwo": "₹250 for two",
+      "cuisines": [
+        "Biryani",
+        "Arabian",
+        "South Indian",
+        "Chinese"
+      ],
+      "avgRating": 4.5,
+      "parentId": "4851",
+      "avgRatingString": "4.5",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 22,
+        "lastMileTravel": 3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "3.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-07 22:45:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "UPTO ₹50"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/cock-ra-co-ramanathapuram-coimbatore-68851",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "639491",
+      "name": "Dum Safar Biryani",
+      "cloudinaryImageId": "47eee43e59a6d49b0f6d9a2b0e523f47",
+      "locality": "Avinashi Road",
+      "areaName": "Peelamedu",
+      "costForTwo": "₹500 for two",
+      "cuisines": [
+        "Biryani",
+        "Kebabs",
+        "Tandoor",
+        "Indian",
+        "Desserts"
+      ],
+      "avgRating": 3.8,
+      "parentId": "351013",
+      "avgRatingString": "3.8",
+      "totalRatingsString": "100+",
+      "sla": {
+        "deliveryTime": 31,
+        "lastMileTravel": 2.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "30-35 mins",
+        "lastMileTravelString": "2.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-07 23:30:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/dum-safar-biryani-avinashi-road-peelamedu-coimbatore-639491",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "58704",
+      "name": "RHR Hotels",
+      "cloudinaryImageId": "2f42cc29f6c76d9dbe4752cc5cfc855b",
+      "locality": "Peelamedu",
+      "areaName": "Peelamedu",
+      "costForTwo": "₹200 for two",
+      "cuisines": [
+        "South Indian",
+        "Chinese"
+      ],
+      "avgRating": 4.5,
+      "parentId": "5813",
+      "avgRatingString": "4.5",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 24,
+        "lastMileTravel": 4.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "4.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-07 23:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "UPTO ₹50"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/rhr-hotels-peelamedu-coimbatore-58704",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "61502",
+      "name": "Hyderabad Biriyani Hotel",
+      "cloudinaryImageId": "j5ppnjc32bvsal2biicg",
+      "locality": "Gandhipuram",
+      "areaName": "Gandhipuram",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "Biryani",
+        "Hyderabadi",
+        "Chinese",
+        "Tandoor"
+      ],
+      "avgRating": 4.3,
+      "parentId": "4969",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "5K+",
+      "sla": {
+        "deliveryTime": 26,
+        "lastMileTravel": 3.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "3.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-06-08 02:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "40% OFF",
+        "subHeader": "UPTO ₹80"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/hyderabad-biriyani-hotel-gandhipuram-coimbatore-61502",
+      "type": "WEBLINK"
+    }
   }
+]
