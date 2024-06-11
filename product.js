@@ -1,34 +1,32 @@
-import React, { useState } from "react";
-import "./product.css"
+import React, { useState } from 'react'
+import Product from './product'
+import "./Browse.css"
+import { listItem } from './products'
+import { FaShoppingCart } from "react-icons/fa";
+import Popular from './popular';
 
 
-let Product=({name,describe,weight,price,img})=>{
-    const [click,setClick]=useState(null)
-    const [calc,setCalc]=useState(0)
-    let count=()=>{
-        setClick(click+1)
-    }
-    // useState(() => {
-    //     setCalc(click * price);
-    // }, [click, price]);
 
-    return(
-        <div className='product-full'>
 
-        <div className='product'>
-            <div className='product-img'>
-                <img src={img} alt="chick"/>
-            </div>
-            <div className='product-description'>
-                <p className='pname'>{name}</p>
-                <p>{describe}</p>
-                <p className='pweight'>{weight}</p>
-                <p className='price'>{price}</p>
-               <p>currenvalue{calc}</p>
-                <button className='Add-button'  onClick={count}>Add<span style={{marginLeft:"10px"}}>+{click}</span></button>
-            </div>
-        </div>
-    </div>
-    )
+const Browse = () => {
+  // let Data=listItem.map((data)=>{
+  //   return(<Product key={data.id}
+  //   title={data.foodName}
+  //   rating={data.rating}
+  //   weight={data.weight}
+  //   description={data.description}
+  //   cost={data.cost}
+  //   img={data.image}/>)
+  // })
+  let Data=listItem
+  return (   
+    <body>
+     <Popular pdata={Data}/>
+     <FaShoppingCart style={{color:"black",width:"30px",height:"30px"}}/>
+      {/* {Data.map((res)=><Product r={res}/>)} */}
+    </body>
+  )
 }
-export default Product
+
+
+export default Browse
